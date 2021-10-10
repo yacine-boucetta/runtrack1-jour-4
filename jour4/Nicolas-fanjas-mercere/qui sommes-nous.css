@@ -1,0 +1,137 @@
+@font-face
+{font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto-Regular'),
+      url(Asset/font/Roboto-Regular.ttf) format('truetype');
+}
+.N-fm  img { width: 15%;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px
+}
+
+.N-fm {background-image: url(Asset/img/RT.gif);
+  width: 100%;
+  height: 50%;
+  font-family:Roboto-Regular;
+  color: whitesmoke;
+  text-decoration: none;
+  background-repeat: repeat;
+   margin-top: 30px;
+   display: flex;
+   align-items: center ;
+
+   
+  
+  
+
+}
+
+.N-fm a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    text-align: right;
+    font-size: 20px;
+    display: flexbox;
+
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.nimage {
+    display: flex;
+    justify-content: space-around;
+    padding-top: -20;
+    width: 70%;
+    
+
+}
+
+.texte1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family:Roboto-Regular;
+    width: 100%;
+    
+
+}
+
+body {
+    margin: 0px;
+    background-color: lightgray;
+}
+ 
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+        
+        
+        }
+    
+ 
+h1 {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50px ;
+    width: fit-content;
+    text-align: center;
+    margin: 20px;
+    background-color: lightskyblue;
+    padding: 10px;
+    
+    }
+
+    .parent2 {
+    display: flex;
+     justify-content: center;
+    flex-direction: row-reverse;
+    padding-top: 150px;
+   
+    
+    }
+    
+    .texte2 {
+       font-size: 16px;
+       padding-top: 30px;
+       font-family:Roboto-Regular;
+       padding-left: 30px;
+    }
+
+    .nimage2 {
+        margin-bottom: 30px;
+        
+    }
+
+    .parent3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+.texte3 {
+
+ font-size: 16px;
+       padding-top: 30px;
+       font-family:Roboto-Regular;
+       padding-left: 30px;
+        }
+
+        footer {
+            margin: 0px;
+            padding: 50px;
+            background-color: lightgoldenrodyellow;
+        }
+
+        .fin {
+            margin: 20px;
+            text-align: center;
+        }

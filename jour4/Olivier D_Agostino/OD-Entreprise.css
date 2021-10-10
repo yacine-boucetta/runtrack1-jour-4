@@ -1,0 +1,65 @@
+.boutonmenuprincipal {
+background-color: white;
+color: #2751ac;
+border: none;
+cursor: pointer;
+padding:20px;
+margin-top:20px;
+font-size: 30px;
+}
+.header-oli {
+    display: flex; justify-content: space-between;
+    align-items: center; background-color: white;
+}
+.boutonmenuprincipal:hover {
+background-color: #5358f0;
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.dropdown-child {
+display: none;
+background-color: #5358f0;
+min-width: 50px;
+}
+.dropdown-child a {
+color: white;
+padding: 20px;
+text-decoration: none;
+display: block;
+}
+.dropdown:hover .dropdown-child {
+display: block;
+}
+body {
+background-color: #2751ac98;
+}
+.notre-offre-entreprise {
+margin-left: 110px; margin-right: 110px;
+}
+.notre-offre-entreprise a{background-color: yellow
+}
+.contactez-nous a{background-color: yellow;
+}
+.recrutez-nos-talents {
+    background-color: whitesmoke;
+}
+.vous-formez {
+    background-color: whitesmoke;
+}
+.votre-innovation {
+    background-color: whitesmoke;
+}
+.dev-web {
+    background-color: whitesmoke;
+}
+.data-science{
+    background-color: whitesmoke;
+}
+.cybersécurité {
+    background-color: whitesmoke;
+}
+div {
+    display: flex: table-column;
+}

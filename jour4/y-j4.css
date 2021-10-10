@@ -1,0 +1,105 @@
+@font-face
+ {font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto-Regular'),
+      url(asset/font/Roboto-Regular.ttf) format('truetype');
+}
+
+
+
+body {margin: 0;padding: 0;}
+
+
+
+
+.rt {width: 100%;
+    background-image: url("asset/image/RT.gif");
+    margin-top:  5%;
+     font-family: Roboto-Regular;
+     color: whitesmoke;
+     text-decoration: none;
+     font-size: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.image-rt{width: 20%;}
+.y-header-nav a {
+    text-decoration: none;
+color:whitesmoke ;
+margin-right: 5%;
+font-size: 20px;
+}
+.y-header-nav{width: 60%}
+
+.plateform{
+    width: 50%;
+}
+
+.welcome{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(255, 162, 109);
+   
+   
+}
+
+.welcome-img{
+    width:100%;height: 100%;
+    background-color: rgb(255, 162, 109);
+  
+}
+
+.y_text_1{ 
+    text-align: center;
+    width: 100%;height:100%;
+    font-family: "Roboto-Regular";
+    display:flex ;
+    font-size: 20px;
+    flex-direction: column; 
+    color: whitesmoke;
+    text-align: left;
+    position: relative;
+    top: 200px;
+    
+   
+}
+.iaschool{
+    width: 100%; height:100%;
+    text-align: left;
+    font-size: 25px;
+    background-color: whitesmoke;
+    background-size:100%;
+    margin: 40px;
+    padding: 20px;
+}
+.webcoding{
+    width: 100%; height: auto;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    margin: 40px;
+}
+.cybersecurity{
+    width: 100%; height:100%;
+    text-align: left;
+    font-size:25px;
+    color: white;
+    margin: 40px;
+}
+.bloc-text-main{
+    display: flex;
+    width: 100%;height: auto;
+    background-color: rgb(86, 150, 150);
+}
+.fin {
+    margin: 20px;
+    text-align: center;
+}
+footer {
+    margin: 0px;
+    padding: 50px;
+    background-color: lightgoldenrodyellow;
+}
